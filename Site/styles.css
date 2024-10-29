@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px 0px 20px; 
+    height: 8vh;
+    background-color: #DC2B49; 
+}
+
+header img{
+    width: 100px;
+    height: auto;
+}
+
+.nav_links {
+    list-style: none;
+    display: flex;
+    gap: 60px; /* Ajuste do espaçamento entre os links */
+}
+  
+.nav_links li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  
+.auth {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espaço entre Log in, divisor e Sign up */
+    
+}
+  
+.auth a{
+    text-decoration: none;
+    color: white; /* Cor do texto "Log in" e "Sign up" */
+}
+  
+.auth span{
+    color: white; /* Cor do divisor */
+    font-weight: bold;
+}
+
+.Klebsiella_Phage{
+    background-color: #FDF7F7;
+    height: 60dvh;
+    text-align: center;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.06);
+}
+
+.Klebsiella_Phage h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 54px;
+    font-weight: 700;
+    padding: 92px 0px 35px 0px;
+}
+
+.Klebsiella_Phage p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    padding: 0px 0px 88px 0px;
+}
+
+.botao_Exploring{
+    font-size: 18px;
+    padding: 15px 30px;
+    background-color: #DC2B49; /* Cor do botão */
+    color: white; /* Cor do texto do botão */
+    border-radius: 9px; /* Bordas arredondadas */
+    margin: 0px 0px 0px 0px;
+}
+
+.tabelas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.kleb{
+    width: 237px;
+    height: 174px;
+    margin: 10px;
+    text-align: center;
+    background-color: #FDF7F7;
+    border-radius: 9px;
+    border: 1px solid #000;
+    background: #FDF7F7;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+}
+
+.kleb img{
+    width: 60px;
+    height: 60px;
+}
+
+.kleb p{
+    margin-top: 24px;
+}
+
+.imag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 306px;
+    height: 174px;
+    margin: 10px;
+    border-radius: 9px;
+    border: 1px solid #000;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.imag img{
+    width: 292px;
+    height: 166px;
+}
+
+.about{
+    width: 1100px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    margin: 50px auto;
+}
+
+.about div{
+    width: 1000px;
+    height: 346px;
+}
+
+.about h2 {
+    margin: 48px 0px 32px 0px;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+.about p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    margin: 32px 0px 52px 0px;
+}
+  
+.button {
+    text-decoration: none;
+    background-color: #25A64E;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.funcionalidades{
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    gap: 160px;
+    
+}
+
+.func_filho{
+    display: flex;
+    width: 211px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.features {
+    display: flex;
+    gap: 2rem;
+}
+
+.feature-card {
+    margin-top: 20px;
+    border: 1px solid #000;
+    background-color: #FDF7F7;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    padding: 1.5rem;
+    width: 250px;
+    height: 300px;
+}
+
+.feature-card h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 45px;
+    margin-top: 20px;
+}
+
+.feature-card p {
+    font-size: 1rem;
+    margin-bottom: 40px;
+}
+
+.login-button {
+    margin-top: 2rem;
+    padding: 0.7rem 2rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #f1c232;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.notice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto; /* Centraliza horizontalmente */
+    border-radius: 9px;
+    padding: 30px 150px;;
+    border: 1px solid #000;
+    background-color: #FBFFCE;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    width: 565px;
+}
+
+.notice p {
+    font-size: 1rem;
+}
+
+.notice em {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.logo-section {
+    margin: 50px auto; /* Centraliza horizontalmente */
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: #fdfdfd;
+    border-radius: 8px;
+    padding: 1rem;
+    border: 1px solid #000;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    max-width: 900px;
+}
+
+.logo-section img {
+    height: 80px; /* Ajuste o tamanho conforme necessário */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+	padding: 10px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+
+
+
+
+
+
