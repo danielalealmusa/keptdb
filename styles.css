@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 header{
@@ -21,7 +22,6 @@ header{
 }
 
 .Klebsiella_Phage h1{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 48px;
     font-weight: 700;
     padding: 68px 0px 5px 0px;
@@ -239,6 +239,7 @@ h1 {
 }
 
 .logo-section {
+    display: flex;
     margin: 50px auto; /* Centraliza horizontalmente */
     justify-content: center;
     align-items: center;
